@@ -1,4 +1,4 @@
-Button{
+.Button{
     border-radius: 5px;
     padding: 10px 15px;
     min-width: 30px;
@@ -7,4 +7,9 @@ Button{
     font-weight: 900;
     border: none;
     margin: 5px;
+}
+
+.Button.clicked{
+    box-shadow: 10px 10px 15px grey;
+    
 }
